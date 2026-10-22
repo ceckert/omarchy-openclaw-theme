@@ -84,6 +84,8 @@
       linear-gradient(45deg, var(--coral), var(--teal)) border-box;
   }
   figcaption { font-size: 13px; color: var(--muted); }
+  figure.shot { max-width: 520px; }
+  figure.shot img { aspect-ratio: auto; object-fit: contain; }
 
   .cmd {
     display: flex;
@@ -262,6 +264,15 @@
     <img src="boot.webp" width="1400" height="788" alt="The boot screen: Omarchy's mark and wordmark, a teal ×, then Molty and the OpenClaw wordmark, over a password field.">
     <figcaption>The boot screen, where you type your disk password.</figcaption>
   </figure>
+
+  <section aria-labelledby="story">
+    <h2 id="story">How it started</h2>
+    <p>I built the OpenClaw side on the OpenClaw team server during Focus Week: Control UI. Being invited was a real honor, and working through a big idea with the other OpenClaw contributors was a lot of fun. It all started with one prompt.</p>
+    <figure class="shot">
+      <img src="first-prompt.webp" width="1000" height="1291" alt="The first prompt on the OpenClaw team server: an idea for an OpenClaw x Omarchy collab with new themes, backgrounds and color palettes, and Roboclaw's first reply showing Catppuccin and Tokyo Night palettes.">
+      <figcaption>The first prompt, and the start of the reply.</figcaption>
+    </figure>
+  </section>
 
   <section aria-labelledby="feedback">
     <h2 id="feedback">Feedback</h2>
